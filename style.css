@@ -1,0 +1,114 @@
+#a{
+    margin-left: 10px;
+    margin-top:0px ;
+}
+
+body{
+
+    margin:0px;
+    padding: 0px;
+}
+.big{
+    color:red;
+    margin: 0px;
+    font-size: 40px;
+}
+#small{
+    font-size: 25px;
+    margin-right: 73%;
+    color:blue;
+}
+#book{
+    margin-left:43%;
+     
+}
+
+.separator{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#b{
+    margin-left:37%;
+    width:500px;
+    height: 450px;
+    margin-right:20%;
+    margin-top: 5%;
+}
+#bphome{
+    margin-left:35%;
+    width:500px;
+    margin-right:20%;
+    margin-top: 1%;
+    margin-bottom: 32.5%;
+}
+#title{
+    color:brown;
+    /* text-align:center; */
+    margin-left:20%;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+.confirm{
+    color:green;
+    margin-left: 10%;
+}
+.unp{
+    width:150px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 35px;
+    width:100px;
+    background-color: blue;
+    font-weight: solid;
+    color:white;
+    font-size: 15px;
+    /* outline: 0px; */
+    border-radius: 10px;
+    border:0px;
+}
+.btn:hover{
+    background-color: rgb(0, 3, 18);
+}
+
+.input{
+    height: 25px;
+    border: solid 2px;
+}
+.star{
+    color:red;
+    margin-left:5px;
+}
+.msg{
+    margin-left:155px ;
+    color:red;
+    
+}
+#heading{
+   margin-bottom: 10px; 
+   font-size: 30px;
+   color:grey;
+   font-weight:solid;
+   letter-spacing:5px;
+   
+}
+#aa{
+    
+    margin-left:35% ;
+}
+#c{
+    float: left;
+}
+.error{
+    color:red;
+    margin-left: 5%;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+}

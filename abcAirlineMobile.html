@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>ABCAirline</title>
+</head>
+<body><div id="a">
+    <h1>ABC<label id="small">Airline</label></h1>
+</div>
+    <div id="b">
+    <label class="unp" for="">User Name <sup for="" class="star">*</sup> 
+    </label><input type="text" class="input" id="userName"  ></input>
+    <br>
+    <label class="msg" id="msgUser"></label>
+    <br>
+    <label for="" class="unp">Password<sup for="" class="star">*</sup></label>
+    <input type="password" class="input"  id="password"></input>
+    <br>
+    <label class="msg"  id="msgPass"></label>
+
+        <br>
+    <button class="btn" onclick="verify()">Login</button>
+</div>
+    <script> 
+function verify(){
+    var user=document.getElementById("userName").value;
+    var useLen=user.length;
+    var password =document.getElementById("password").value;
+    var passLen=password.length;
+ 
+
+
+    if(passLen==0 && useLen==0 ){
+        document.getElementById("msgUser").innerHTML="Username required *"
+        document.getElementById("msgPass").innerHTML="Password required *"
+    }
+    else if(passLen==0 ){
+        document.getElementById("msgPass").innerHTML="Password required *"
+
+    }else if(useLen==0){
+        document.getElementById("msgUser").innerHTML="Username required *"
+
+    }
+   
+   
+}
+</script>
+<style>
+#a{
+    margin-left: 40px;
+    margin-top:10px ;
+}
+
+body{
+
+    margin:0px;
+}
+h1{
+    color:red;
+    margin: 0px;
+    font-size: 40px;
+}
+#small{
+    font-size: 25px;
+    color:blue;
+}
+#b{
+    margin-left:37%;
+    width:500px;
+    height: 500px;
+    margin-right:20%;
+    margin-top: 5%;
+}
+.unp{
+    width:150px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 80px;
+    height: 35px;
+    width:100px;
+    background-color: blue;
+    font-weight: solid;
+    color:white;
+    font-size: 15px;
+    /* outline: 0px; */
+    border-radius: 10px;
+    border:0px;
+}
+.btn:hover{
+    background-color: rgb(0, 3, 18);
+}
+
+.input{
+    height: 25px;
+    border: solid 2px;
+}
+.star{
+    color:red;
+    margin-left:5px;
+}
+.msg{
+    margin-left:155px ;
+    color:red;
+    
+}
+#heading{
+   margin-bottom: 10px; 
+   font-size: 30px;
+   color:grey;
+   font-weight:solid;
+   letter-spacing:5px;
+   
+}
+#aa{
+    
+    margin-left:35% ;
+}
+</style>
+</body>
+</html>
